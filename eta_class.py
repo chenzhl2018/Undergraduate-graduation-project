@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.7
 import sys, os
 sys.path.append("/root/MG5_aMC_v3_3_1")
 from madgraph.various.lhe_parser import *
