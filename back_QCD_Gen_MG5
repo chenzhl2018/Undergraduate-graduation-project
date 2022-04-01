@@ -1,0 +1,12 @@
+import model loop_sm
+generate p p > w+ w+ j j QED=2 QCD=2
+add process p p > w- w- j j QED=2 QCD=2
+output Launch/back_QCD_Gen
+launch
+set pdlabel lhapdf
+set lhaid 324900
+set dynamical_scale_choice 3
+set ptj 20
+set ptl 10
+set etaj 5.5
+set etal 4.0
