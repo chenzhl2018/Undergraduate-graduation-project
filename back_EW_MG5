@@ -8,6 +8,6 @@ set lhaid 324900
 set dynamical_scale_choice 3
 set ptj 20
 set etaj 5.5
-set ptl 0
+set ptl 10
 set etal 4
 done
