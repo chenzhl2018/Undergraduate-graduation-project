@@ -127,6 +127,7 @@ R.sign_5000_u2.SetLineWidth(3)
 #R.back_EW_u2.SetLineWidth(3)
 sum_back.SetLineWidth(3)
 
+#add histograms
 myS.Add(R.back_QCD_u2,"hist")
 myS.Add(R.back_EW_u2,"hist same")
 
