@@ -1,17 +1,21 @@
+#The first
 import model loop_sm
 generate p p > w+ w+ j j QED=2 QCD=2,(w+ > mu+ vm,w+ > mu+ vm)
 add process p p > w- w- j j QED=2 QCD=2,(w- > mu- vm~,w- > mu- vm~)
 
+#The Second
 import model loop_sm
 generate p p > w+ w+ j j $$ a z w+ w- QCD=0 QED=4,(w+ > mu+ vm,w+ > mu+ vm)
 add process p p > w- w- j j $$ a z w+ w- QCD=0 QED=4,(w- > mu- vm~,w- > mu- vm~)
 
+#The third
 import model loop_sm
 define ell = e+ mu+ ta+ e- mu- ta-
 define vv = ve vm vt ve~ vm~ vt~
 generate p p > mu+ mu+ ell vv j j QCD=0
 add process p p > mu- mu- ell vv j j QCD=0
 
+#
 import model loop_sm
 define ell = e+ mu+ ta+ e- mu- ta-
 define vv = ve vm vt ve~ vm~ vt~
